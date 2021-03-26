@@ -51,6 +51,12 @@ form div label {
 
 body {
 	overflow-x: hidden;
+	background-color: black;
+}
+
+p {
+	font-weight: 500;
+	margin-bottom: 24px;
 }
 
 body {
@@ -87,8 +93,12 @@ nav {
 	height: 50px;
 }
 
+a {
+	color: rgb(0, 183, 255);
+}
+
 a:hover {
-	color: blue;
+	color: rgb(0, 119, 255);
 	text-decoration: none;
 }
 
@@ -104,7 +114,7 @@ header:not(.hero-header) {
 
 .hero-img {
 	position: absolute;
-	background-image: url("../img/halftoneherosm.png");
+	/*background-image: url("../img/halftoneherosm.png");*/
 	background-size: cover;
 	z-index: 1;
 	height: 384px;
@@ -156,7 +166,6 @@ header {
 }
 
 #hero {
-	background-color: black;
 	color: white;
 }
 
@@ -257,4 +266,23 @@ h1, h2 {
 
 .cta-form {
 	padding: 8px;
+}
+
+.synthetix-logo {
+	height: 12px;
+	width: auto;
+	margin: 0px 2px;
+}
+
+.github-icon {
+	fill: white;
+	height: 20px;
+}
+
+.github-icon:hover {
+	opacity: .5;
+}
+
+img, svg {
+	vertical-align: baseline;
 }
